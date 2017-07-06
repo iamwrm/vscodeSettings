@@ -81,9 +81,44 @@
                     "command": "workbench.action.showCommands"
                 }
             ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "1"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.focusFirstEditorGroup"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "2"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.focusSecondEditorGroup"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "3"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.focusThirdEditorGroup"
+                }
+            ]
         }
-    ],
-    // workbench.action.showCommands
+   ],
     //end vim ======================
     //python =======================
     "python.pythonPath": "python3",

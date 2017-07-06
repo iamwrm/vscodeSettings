@@ -11,5 +11,15 @@
 	{
 		"key": "cmd+y",
 		"command": "editor.action.formatDocument"
+	},
+	{
+		"key": "ctrl+f",
+		"command": "cursorPageDown",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+b",
+		"command": "cursorPageUp",
+		"when": "editorTextFocus"
 	}
 ]
