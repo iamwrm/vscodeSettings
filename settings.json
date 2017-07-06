@@ -1,0 +1,136 @@
+{
+    //editor settings
+    "window.zoomLevel": -1,
+    "editor.fontSize": 16,
+    "editor.formatOnSave": false,
+    "editor.wordWrap": "on",
+    "editor.formatOnType": true,
+    "editor.wordBasedSuggestions": true,
+    "editor.parameterHints": true,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "editor.formatOnPaste": true,
+    "editor.snippetSuggestions": "inline",
+    //"window.nativeTabs":true,
+    //
+    "workbench.activityBar.visible": true,
+    "workbench.iconTheme": "vscode-great-icons",
+    "extensions.autoUpdate": false,
+    "terminal.external.osxExec": "iTerm.app",
+    "window.newWindowDimensions": "inherit",
+    "workbench.sideBar.location": "left",
+    "editor.minimap.enabled": true,
+    "editor.minimap.renderCharacters": false,
+    "git.confirmSync": false,
+    "C_Cpp.autocomplete": "Disabled",
+    //todo settings
+    "todohighlight.isEnable": true,
+    "todohighlight.keywords": [
+        {
+            "text": "BUG:",
+            "color": "#ff0",
+            "backgroundColor": "#f00",
+            "overviewRulerColor": "red"
+        },
+        {
+            "text": "EMERGENCY:",
+            "color": "#ff0",
+            "backgroundColor": "#f00",
+            "overviewRulerColor": "red"
+        },
+        {
+            "text": "NOTE:", // custom text to be highlighted
+            "color": "#174199", // the text color, any css color identifier is valid
+            "backgroundColor": "yellow", // the text background color
+            "overviewRulerColor": "blue" //the color of the ruler mark on the scroll bar. use rgba() and define transparent colors to play well with other decorations.
+        }
+    ],
+    //vim ========================
+    "vim.useCtrlKeys": false,
+    "vim.useSystemClipboard": true,
+    "vim.searchHighlightColor": "rgba(95, 239, 74, 0.3)",
+    "vim.leader": "<space>",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "f",
+                "d"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "<space>"
+            ],
+            "after": [], "commands": [
+                {
+                    "command": "workbench.action.showCommands"
+                }
+            ]
+        }
+    ],
+    // workbench.action.showCommands
+    //end vim ======================
+    //python =======================
+    "python.pythonPath": "python3",
+    "python.linting.enabled": true,
+    "python.linting.pylintPath": "pylint",
+    // run code
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "php": "php",
+        "python": "python",
+        "perl": "perl",
+        "ruby": "ruby",
+        "go": "go run",
+        "lua": "lua",
+        "groovy": "groovy",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "",
+        "shellscript": "bash",
+        "fsharp": "fsi",
+        "csharp": "scriptcs",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "scala": "scala",
+        "swift": "swift",
+        "julia": "julia",
+        "crystal": "crystal",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "applescript": "osascript",
+        "clojure": "lein exec"
+    },
+    "latex-workshop.chktex.enabled": true,
+    "cSpell.ignoreRegExpList": [
+        "\\\\\\w*(\\[.*?\\])?(\\{.*?\\})?",
+        "\\$.+?\\$"
+    ],
+    //matlab
+    "matlab.mlintpath": "/Applications/MATLAB_R2017a.app/bin/maci64/mlint",
+    "matlab.matlabpath": "/Applications/MATLAB_R2017a.app/bin/matlab",
+    "vim.disableAnnoyingNeovimMessage": true,
+    "git.enableSmartCommit": true,
+    "workbench.colorTheme": "Monokai Dark Soda",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.insertSpaces": false,
+    "editor.acceptSuggestionOnEnter": "smart"
+}

@@ -1,0 +1,15 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+	{
+		"key": "cmd+m",
+		"command": "workbench.action.reloadWindow"
+	},
+	{
+		"key": "cmd+r",
+		"command": "workbench.action.gotoSymbol"
+	},
+	{
+		"key": "cmd+y",
+		"command": "editor.action.formatDocument"
+	}
+]
